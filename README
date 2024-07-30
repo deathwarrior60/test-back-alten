@@ -1,0 +1,20 @@
+# technical backend test for alten sdc
+
+This is a spring boot project to handle the CRUD of product.
+
+## how to run the app
+
+requires java 21
+
+```
+mvn clean package
+java -jar target/test-tech-0.0.1-SNAPSHOT.jar
+```
+
+
+swagger is available on http://localhost:3000/swagger-ui/index.html
+
+
+# Please note
+
+We use an in memory H2 database, so any modification on product is lost after restart of the process.
